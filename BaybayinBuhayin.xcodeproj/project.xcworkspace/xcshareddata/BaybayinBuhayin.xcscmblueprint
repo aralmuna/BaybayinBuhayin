@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "f830e0d9-e9db-4a28-9151-389c87d237c9++9965",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "f830e0d9-e9db-4a28-9151-389c87d237c9++9965" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "f830e0d9-e9db-4a28-9151-389c87d237c9++9965" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E65A5925-405C-4C37-B5B9-3A94F21AA5D7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "f830e0d9-e9db-4a28-9151-389c87d237c9++9965" : "BaybayinBuhayinBamboo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BaybayinBuhayin",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BaybayinBuhayin.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn+a2hosting:\/\/slingandstoneweb.com\/home\/plaborte\/srv\/svn\/snsweb",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "f830e0d9-e9db-4a28-9151-389c87d237c9++9965"
+    }
+  ]
+}
