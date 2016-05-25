@@ -3,7 +3,7 @@
 //  BaybayinBuhayin
 //
 //  Created by Paul Michael Laborte on 10/7/10.
-//  Copyright 2010 Kudlit. All rights reserved.
+//  Copyright AralMuna.Me. All rights reserved.
 //
 
 #import "BaybayinBuhayinAppDelegate.h"
