@@ -9,7 +9,7 @@
 #import "BaybayinSlideViewController.h"
 
 static NSString* kTracingInfoPopupDisplayed = @"tracing_info_popup_displayed";
-const int X1 = 562; // 480(460) -> 592(568)
+const int X1 = 565; // 480(460) -> 592(568)
 const int X2 = 1629; // 1320(460) -> 1629(568)
 
 @implementation BaybayinSlideViewController
@@ -208,7 +208,7 @@ const int X2 = 1629; // 1320(460) -> 1629(568)
     // START animations
     if (willAnimate) {
         [UIView beginAnimations:@"show" context:nil];
-        [UIView setAnimationDuration:0.5];
+        [UIView setAnimationDuration:0.6];
     }
 
     // move next trace image to screen
