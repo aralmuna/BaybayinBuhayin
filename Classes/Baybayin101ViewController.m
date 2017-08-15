@@ -100,14 +100,14 @@
         self.baybayin101ImgView = tempImageView;
         
         UIScrollView *tempScrollView = nil;
-        tempScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(97, 0, 460, 318)];
+        tempScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(77, 0, 490, 318)];
         self.scrollView = tempScrollView;
 
-        self.scrollView.minimumZoomScale = 0.6;
-        self.scrollView.maximumZoomScale = 1.0;        
+        self.scrollView.minimumZoomScale = 0.70;
+        self.scrollView.maximumZoomScale = 1.0;
         scrollView.delegate = self;
         [scrollView addSubview:baybayin101ImgView];
-        scrollView.zoomScale = 0.60;
+        scrollView.zoomScale = 0.70;
         
         [tempImageView release];
         [tempScrollView release];
@@ -124,7 +124,7 @@
 
     if (!self.tableView) {
         // setup new view
-        UITableView *tempTableView = [[UITableView alloc] initWithFrame:CGRectMake(97, 0, 460, 318) style:UITableViewStylePlain];
+        UITableView *tempTableView = [[UITableView alloc] initWithFrame:CGRectMake(77, 0, 490, 318) style:UITableViewStylePlain];
         tempTableView.backgroundColor = [UIColor clearColor];
         tempTableView.dataSource = self;
         tempTableView.delegate = self;

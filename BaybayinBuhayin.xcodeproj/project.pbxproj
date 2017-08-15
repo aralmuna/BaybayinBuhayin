@@ -187,6 +187,7 @@
 		DAB423C61F42F6E2007281FF /* SeeAll@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB423C51F42F6E2007281FF /* SeeAll@2x.png */; };
 		DAB423CA1F42FA15007281FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB423C91F42FA15007281FF /* Assets.xcassets */; };
 		DAB423CC1F42FC8C007281FF /* ShakeWall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB423CB1F42FC8C007281FF /* ShakeWall@2x.png */; };
+		DAB423CE1F4301C6007281FF /* MyFirstBaybayinBranding@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB423CD1F4301C6007281FF /* MyFirstBaybayinBranding@2x.png */; };
 		DACD75781F34884700B36F11 /* BanigBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD75771F34884700B36F11 /* BanigBG@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -395,6 +396,7 @@
 		DAB423C51F42F6E2007281FF /* SeeAll@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SeeAll@2x.png"; sourceTree = "<group>"; };
 		DAB423C91F42FA15007281FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAB423CB1F42FC8C007281FF /* ShakeWall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ShakeWall@2x.png"; sourceTree = "<group>"; };
+		DAB423CD1F4301C6007281FF /* MyFirstBaybayinBranding@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MyFirstBaybayinBranding@2x.png"; sourceTree = "<group>"; };
 		DACD75771F34884700B36F11 /* BanigBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BanigBG@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -648,6 +650,7 @@
 		C8FD18C51266C80900774DCE /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				DAB423CD1F4301C6007281FF /* MyFirstBaybayinBranding@2x.png */,
 				DAB423CB1F42FC8C007281FF /* ShakeWall@2x.png */,
 				DA7BB1461F34AC0100E737CC /* AppName@2x.png */,
 				DA7BB13E1F349E9700E737CC /* Default-568h@2x.png */,
@@ -803,6 +806,7 @@
 				C8DA506112898D4C00B5C3B7 /* TraceLaLeft.png in Resources */,
 				C8DA506312898D4C00B5C3B7 /* TraceKaRight.png in Resources */,
 				C8DA506412898D4C00B5C3B7 /* TraceKaLeft.png in Resources */,
+				DAB423CE1F4301C6007281FF /* MyFirstBaybayinBranding@2x.png in Resources */,
 				C8DA506612898D4C00B5C3B7 /* TraceBaLeft.png in Resources */,
 				C8DA506812898D4C00B5C3B7 /* TraceBaRight.png in Resources */,
 				C8DA506E12898D4C00B5C3B7 /* TraceARight.png in Resources */,
