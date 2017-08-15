@@ -227,8 +227,8 @@
                     <rect key="frame" x="221" y="142" width="37" height="37"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </activityIndicatorView>
-                <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="55">
-                    <rect key="frame" x="55" y="27" width="370" height="273"/>
+                <button opaque="NO" alpha="0.0" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="55">
+                    <rect key="frame" x="99" y="27" width="370" height="273"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                     <state key="normal" image="ShakeWall.png">
@@ -256,7 +256,7 @@
         <image name="HomeBambooOn.png" width="29" height="52"/>
         <image name="MyFirstBaybayinBranding.png" width="119" height="31"/>
         <image name="Red.png" width="11" height="11"/>
-        <image name="ShakeWall.png" width="370" height="273"/>
+        <image name="ShakeWall.png" width="370" height="269"/>
         <image name="ShareButton.png" width="59" height="13"/>
         <image name="ShareOptionsCameraResized2.png" width="130" height="130"/>
         <image name="ShareOptionsFBResized.png" width="130" height="130"/>

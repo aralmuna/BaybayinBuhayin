@@ -186,6 +186,7 @@
 		DAB423C41F42DAD4007281FF /* PlaySoundIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB423C31F42DAD4007281FF /* PlaySoundIcon@2x.png */; };
 		DAB423C61F42F6E2007281FF /* SeeAll@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB423C51F42F6E2007281FF /* SeeAll@2x.png */; };
 		DAB423CA1F42FA15007281FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB423C91F42FA15007281FF /* Assets.xcassets */; };
+		DAB423CC1F42FC8C007281FF /* ShakeWall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB423CB1F42FC8C007281FF /* ShakeWall@2x.png */; };
 		DACD75781F34884700B36F11 /* BanigBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD75771F34884700B36F11 /* BanigBG@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -393,6 +394,7 @@
 		DAB423C31F42DAD4007281FF /* PlaySoundIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlaySoundIcon@2x.png"; sourceTree = "<group>"; };
 		DAB423C51F42F6E2007281FF /* SeeAll@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SeeAll@2x.png"; sourceTree = "<group>"; };
 		DAB423C91F42FA15007281FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB423CB1F42FC8C007281FF /* ShakeWall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ShakeWall@2x.png"; sourceTree = "<group>"; };
 		DACD75771F34884700B36F11 /* BanigBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BanigBG@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -646,6 +648,7 @@
 		C8FD18C51266C80900774DCE /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				DAB423CB1F42FC8C007281FF /* ShakeWall@2x.png */,
 				DA7BB1461F34AC0100E737CC /* AppName@2x.png */,
 				DA7BB13E1F349E9700E737CC /* Default-568h@2x.png */,
 				C81C018112A4A6FE00C7D3C9 /* Default.png */,
@@ -772,6 +775,7 @@
 				C8451C7B12655F60008BF722 /* ArrowNormalLeft.png in Resources */,
 				C8451C7C12655F60008BF722 /* ArrowNormalRight.png in Resources */,
 				C8F66CB612675B59004A1516 /* Yellow.png in Resources */,
+				DAB423CC1F42FC8C007281FF /* ShakeWall@2x.png in Resources */,
 				C8F66CB712675B59004A1516 /* Blue.png in Resources */,
 				C8F66CB812675B59004A1516 /* Red.png in Resources */,
 				C85299C9126DE9F3007F381C /* Particle copy.png in Resources */,
