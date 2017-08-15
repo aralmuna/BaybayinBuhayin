@@ -209,7 +209,7 @@ static NSString* kWallInfoPopupDisplayed = @"wall_info_popup_displayed";
         footerImg.frame = updatedFrame;
         
         updatedFrame = headerImg.frame;
-        updatedFrame.origin.x = 520;
+        updatedFrame.origin.x = 645;
         headerImg.frame = updatedFrame;
         
         [UIView commitAnimations];
@@ -275,7 +275,7 @@ static NSString* kWallInfoPopupDisplayed = @"wall_info_popup_displayed";
     footerImg.frame = updatedFrame;
     
     updatedFrame = headerImg.frame;
-    updatedFrame.origin.x = 408;
+    updatedFrame.origin.x = 494;
     headerImg.frame = updatedFrame;
     
     [UIView commitAnimations];

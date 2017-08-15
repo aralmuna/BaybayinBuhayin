@@ -128,7 +128,7 @@
 			// Set the texture parameters to use a minifying filter and a linear filer (weighted average)
 			glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 			// Specify a 2D texture image, providing the a pointer to the image data in memory
-			glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, brushData);
+			glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, (int)width, (int)height, 0, GL_RGBA, GL_UNSIGNED_BYTE, brushData);
 			// Release  the image data; it's no longer needed
             free(brushData);
 		}
@@ -300,7 +300,7 @@
 	
 	// Render the vertex array
 	glVertexPointer(2, GL_FLOAT, 0, vertexBuffer);
-	glDrawArrays(GL_POINTS, 0, vertexCount);
+	glDrawArrays(GL_POINTS, 0, (int) vertexCount);
 	
 	// Display the buffer
 	glBindRenderbufferOES(GL_RENDERBUFFER_OES, viewRenderbuffer);

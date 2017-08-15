@@ -9,6 +9,8 @@
 #import "BaybayinSlideViewController.h"
 
 static NSString* kTracingInfoPopupDisplayed = @"tracing_info_popup_displayed";
+const int X1 = 562; // 480(460) -> 592(568)
+const int X2 = 1629; // 1320(460) -> 1629(568)
 
 @implementation BaybayinSlideViewController
 
@@ -95,7 +97,7 @@ static NSString* kTracingInfoPopupDisplayed = @"tracing_info_popup_displayed";
 
 - (void)prev {
     position -= 1;
-    if (position < 0) position = [charArray count] - 1;
+    if (position < 0) position = (int) [charArray count] - 1;
     [self displayChar:NO animated:YES];
 }
 
@@ -145,13 +147,13 @@ static NSString* kTracingInfoPopupDisplayed = @"tracing_info_popup_displayed";
     NSLog(@"trace %@", nextCharName);
     
     // trace image origin
-    CGPoint center = CGPointMake(240, 160);
+    CGPoint center = CGPointMake(295, 160);
     NSString *nextImageName = [NSString stringWithFormat:@"%@.png", nextCharName];
     UIImage *nextImg = [UIImage imageNamed:nextImageName];
     nextView.image = nextImg;
     CGSize nextImgSize = nextImg.size;
     CGFloat nextImgYCtr = center.y - (nextImgSize.height / 2);
-    CGFloat nextImgX = 480;
+    CGFloat nextImgX = X1;
     if (!rightToLeft) {
         nextImgX *= -1;
     }    
@@ -167,9 +169,9 @@ static NSString* kTracingInfoPopupDisplayed = @"tracing_info_popup_displayed";
 
     UIImage *nextLeftBtnImg = [UIImage imageNamed:nextLeftBtnImgName];
     CGSize nextLeftBtnImgSize = nextLeftBtnImg.size;
-    CGFloat nextLeftBtnX = 960;
+    CGFloat nextLeftBtnX = (X1*2);
     if (!rightToLeft) {
-        nextLeftBtnX = -1420;
+        nextLeftBtnX = -(X2+100);
     }    
     nextLeftBtn.frame = CGRectMake(nextLeftBtnX, 20, nextLeftBtnImgSize.width, nextLeftBtnImgSize.height);
     [nextLeftBtn setImage:nextLeftBtnImg forState:UIControlStateNormal];
@@ -184,9 +186,9 @@ static NSString* kTracingInfoPopupDisplayed = @"tracing_info_popup_displayed";
 
     UIImage *nextRightBtnImg = [UIImage imageNamed:nextRightBtnImgName];
     CGSize nextRightBtnImgSize = nextRightBtnImg.size;
-    CGFloat nextRightBtnX = 1320;
+    CGFloat nextRightBtnX = X2;
     if (!rightToLeft) {
-        nextRightBtnX = -960;
+        nextRightBtnX = -(X1*2);
     }
     nextRightBtn.frame = CGRectMake(nextRightBtnX, 10, nextRightBtnImgSize.width, nextRightBtnImgSize.height);
     [nextRightBtn setImage:nextRightBtnImg forState:UIControlStateNormal];
@@ -195,7 +197,7 @@ static NSString* kTracingInfoPopupDisplayed = @"tracing_info_popup_displayed";
     nextSoundBtn.alpha = 1.0;
 
     // calculate next right button frame for use within animation
-    CGFloat rightBtnX = 480 - 15 - nextRightBtnImgSize.width;
+    CGFloat rightBtnX = X1 - 15 - nextRightBtnImgSize.width;
     rightBtnFrame = CGRectMake(rightBtnX, 10, nextRightBtnImgSize.width, nextRightBtnImgSize.height);
     
     // move slightly to left of right button (23 is width of audio icon)
@@ -225,13 +227,13 @@ static NSString* kTracingInfoPopupDisplayed = @"tracing_info_popup_displayed";
     CGSize currLBSize = currentLeftBtn.frame.size;
     CGSize currRBSize = currentRightBtn.frame.size;
     CGFloat currImgYCtr = center.y - (currImgSize.height / 2);
-    CGFloat currX = -480;
-    CGFloat currLeftX = -960;
-    CGFloat currRightX = -1320;
+    CGFloat currX = -X1;
+    CGFloat currLeftX = -(X1*2);
+    CGFloat currRightX = -(X2);
     if (!rightToLeft) {
-        currX = 480;
-        currLeftX = 1420;
-        currRightX = 960;
+        currX = X1;
+        currLeftX = X2+100;
+        currRightX = (X1*2);
     }
     currentView.frame = CGRectMake(currX, currImgYCtr, currImgSize.width, currImgSize.height);
     currentLeftBtn.frame = CGRectMake(currLeftX, 20, currLBSize.width, currLBSize.height);
@@ -307,7 +309,7 @@ static NSString* kTracingInfoPopupDisplayed = @"tracing_info_popup_displayed";
 
 - (void)jumpToChar:(id)sender {
     UIButton *charBtn = (UIButton *)sender;
-    self.position = charBtn.tag;
+    self.position = (int) charBtn.tag;
     [self closeAllChars];
     [self displayChar:YES animated:NO];
 }

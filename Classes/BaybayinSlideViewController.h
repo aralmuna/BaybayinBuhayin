@@ -55,5 +55,8 @@
 - (IBAction)closeAllChars;
 - (IBAction)jumpToChar:(id)sender;
 
+extern const int X1;
+extern const int X2;
+
 @end
 

@@ -3,7 +3,7 @@
 //  BaybayinBuhayin
 //
 //  Created by Paul Michael Laborte on 10/7/10.
-//  Copyright 2010 Kudlit. All rights reserved.
+//  Copyright 2010 AralMuna.Me. All rights reserved.
 //
 
 #import "Baybayin101ViewController.h"
@@ -25,14 +25,14 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
         // Custom initialization
-        NSArray *tempTitles = [NSArray arrayWithObjects:@"Baybayin", @"Ating Baybayin", @"Ang Baybayin", nil];
+        NSArray *tempTitles = [NSArray arrayWithObjects:@"Baybayin", @"Ating Baybayin", @"Baybayin Buhayin", nil];
         self.titles = tempTitles;
 
         NSArray *tempLinks = [NSArray arrayWithObjects:@"http://www.baybayin.com", 
-                              @"http://www.eaglescorner.com/baybayin/", @"http://www.mts.net/~pmorrow/baybay1.htm", nil];
+                              @"http://www.eaglescorner.com/baybayin/", @"https://www.facebook.com/baybayinbuhayin/", nil];
         self.links = tempLinks;
 
-        NSArray *tempImages = [NSArray arrayWithObjects:@"Site2Thumb.png", @"Site3Thumb.png", @"Site4Thumb.png", nil];
+        NSArray *tempImages = [NSArray arrayWithObjects:@"Site2Thumb.png", @"Site3Thumb.png", @"Site5Thumb.png", nil];
         self.images = tempImages;      
     }
     return self;
@@ -100,7 +100,7 @@
         self.baybayin101ImgView = tempImageView;
         
         UIScrollView *tempScrollView = nil;
-        tempScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(67, 0, 400, 318)];
+        tempScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(97, 0, 460, 318)];
         self.scrollView = tempScrollView;
 
         self.scrollView.minimumZoomScale = 0.6;
@@ -124,7 +124,7 @@
 
     if (!self.tableView) {
         // setup new view
-        UITableView *tempTableView = [[UITableView alloc] initWithFrame:CGRectMake(67, 0, 400, 318) style:UITableViewStylePlain];
+        UITableView *tempTableView = [[UITableView alloc] initWithFrame:CGRectMake(97, 0, 460, 318) style:UITableViewStylePlain];
         tempTableView.backgroundColor = [UIColor clearColor];
         tempTableView.dataSource = self;
         tempTableView.delegate = self;
