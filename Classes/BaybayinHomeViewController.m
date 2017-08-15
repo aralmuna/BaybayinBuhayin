@@ -17,6 +17,8 @@ static NSString* kHomeInfoPopupDisplayed = @"home_info_popup_displayed";
 static NSString* kTracingInfoPopupDisplayed = @"tracing_info_popup_displayed";
 static NSString* kWallInfoPopupDisplayed = @"wall_info_popup_displayed";
 
+const int OFFSET = 30;
+
 @implementation BaybayinHomeViewController
 
 @synthesize bgImgView;
@@ -267,7 +269,7 @@ static NSString* kWallInfoPopupDisplayed = @"wall_info_popup_displayed";
     // move header to right
     // move bamboo and footer to left
     CGRect updatedFrame = bambooBtn.frame;
-    updatedFrame.origin.x = 64;
+    updatedFrame.origin.x = 64 + OFFSET;
     bambooBtn.frame = updatedFrame;
     
     updatedFrame = footerImg.frame;

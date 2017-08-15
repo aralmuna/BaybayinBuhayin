@@ -65,7 +65,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8">
-                    <rect key="frame" x="352" y="208" width="50" height="59"/>
+                    <rect key="frame" x="392" y="218" width="50" height="59"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                     <state key="normal" title="A" image="MenuA.png">
@@ -80,11 +80,11 @@
                     </connections>
                 </button>
                 <imageView userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleAspectFill" fixedFrame="YES" image="MenuBaybayin101.png" translatesAutoresizingMaskIntoConstraints="NO" id="31">
-                    <rect key="frame" x="381" y="88" width="65" height="122"/>
+                    <rect key="frame" x="421" y="98" width="65" height="122"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <button hidden="YES" opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66">
-                    <rect key="frame" x="381" y="88" width="65" height="122"/>
+                    <rect key="frame" x="421" y="98" width="65" height="122"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                     <state key="normal" image="MenuBaybayin101.png">
@@ -99,11 +99,11 @@
                     </connections>
                 </button>
                 <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleAspectFill" fixedFrame="YES" image="AboutThisApp.png" translatesAutoresizingMaskIntoConstraints="NO" id="32">
-                    <rect key="frame" x="195" y="31" width="17" height="132"/>
+                    <rect key="frame" x="235" y="41" width="17" height="132"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <button hidden="YES" opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="70">
-                    <rect key="frame" x="195" y="31" width="17" height="132"/>
+                    <rect key="frame" x="235" y="41" width="17" height="132"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                     <state key="normal" image="AboutThisApp.png">
@@ -118,11 +118,11 @@
                     </connections>
                 </button>
                 <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleAspectFill" fixedFrame="YES" image="MenuBaybayinAralin.png" translatesAutoresizingMaskIntoConstraints="NO" id="35">
-                    <rect key="frame" x="320" y="58" width="53" height="128"/>
+                    <rect key="frame" x="360" y="68" width="53" height="128"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <button hidden="YES" opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74">
-                    <rect key="frame" x="320" y="58" width="53" height="128"/>
+                    <rect key="frame" x="360" y="68" width="53" height="128"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                     <state key="normal" image="MenuBaybayinAralin.png">
@@ -137,11 +137,11 @@
                     </connections>
                 </button>
                 <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleAspectFill" fixedFrame="YES" image="MenuFirstBaybayin.png" translatesAutoresizingMaskIntoConstraints="NO" id="36">
-                    <rect key="frame" x="257" y="37" width="33" height="132"/>
+                    <rect key="frame" x="297" y="47" width="33" height="132"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <button hidden="YES" opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76">
-                    <rect key="frame" x="257" y="37" width="33" height="132"/>
+                    <rect key="frame" x="297" y="47" width="33" height="132"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                     <state key="normal" image="MenuFirstBaybayin.png">
@@ -156,7 +156,7 @@
                     </connections>
                 </button>
                 <button hidden="YES" opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9">
-                    <rect key="frame" x="299" y="185" width="45" height="60"/>
+                    <rect key="frame" x="339" y="195" width="45" height="60"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                     <state key="normal" title="B" image="MenuB.png">
@@ -171,7 +171,7 @@
                     </connections>
                 </button>
                 <button hidden="YES" opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10">
-                    <rect key="frame" x="234" y="169" width="57" height="48"/>
+                    <rect key="frame" x="274" y="179" width="57" height="48"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                     <state key="normal" title="K" image="MenuK.png">
@@ -186,7 +186,7 @@
                     </connections>
                 </button>
                 <button hidden="YES" opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15">
-                    <rect key="frame" x="178" y="164" width="48" height="34"/>
+                    <rect key="frame" x="218" y="174" width="48" height="34"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                     <state key="normal" title="D" image="MenuD.png">

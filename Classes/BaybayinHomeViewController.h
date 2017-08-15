@@ -83,5 +83,8 @@
 - (IBAction)tracing;
 - (IBAction)myBaybayin;
 - (IBAction)closePopup;
+
+extern const int OFFSET;
+
 @end
 
