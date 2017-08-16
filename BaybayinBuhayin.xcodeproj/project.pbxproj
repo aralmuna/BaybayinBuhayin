@@ -208,6 +208,9 @@
 		DA472E8B1F4424160056A71C /* TraceDaRaRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA472E8A1F4424160056A71C /* TraceDaRaRight@2x.png */; };
 		DA472E8E1F4425740056A71C /* TraceYaRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA472E8C1F4425740056A71C /* TraceYaRight@2x.png */; };
 		DA472E8F1F4425740056A71C /* TraceWaRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA472E8D1F4425740056A71C /* TraceWaRight@2x.png */; };
+		DA472E911F4446E50056A71C /* TraceARight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA472E901F4446E50056A71C /* TraceARight@2x.png */; };
+		DA472E931F44478B0056A71C /* TraceEIRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA472E921F44478B0056A71C /* TraceEIRight@2x.png */; };
+		DA472E951F44483B0056A71C /* TraceOURight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA472E941F44483B0056A71C /* TraceOURight@2x.png */; };
 		DA5C03961F42A6D5005429F7 /* Site5Thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5C03951F42A6D5005429F7 /* Site5Thumb.png */; };
 		DA7BB1471F34AC0100E737CC /* AppName@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7BB1461F34AC0100E737CC /* AppName@2x.png */; };
 		DA95986A1F3493DE00C66B7E /* BanigBG@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9598691F3493DE00C66B7E /* BanigBG@3x.png */; };
@@ -447,6 +450,9 @@
 		DA472E8A1F4424160056A71C /* TraceDaRaRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TraceDaRaRight@2x.png"; sourceTree = "<group>"; };
 		DA472E8C1F4425740056A71C /* TraceYaRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TraceYaRight@2x.png"; sourceTree = "<group>"; };
 		DA472E8D1F4425740056A71C /* TraceWaRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TraceWaRight@2x.png"; sourceTree = "<group>"; };
+		DA472E901F4446E50056A71C /* TraceARight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TraceARight@2x.png"; sourceTree = "<group>"; };
+		DA472E921F44478B0056A71C /* TraceEIRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TraceEIRight@2x.png"; sourceTree = "<group>"; };
+		DA472E941F44483B0056A71C /* TraceOURight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TraceOURight@2x.png"; sourceTree = "<group>"; };
 		DA5C03951F42A6D5005429F7 /* Site5Thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Site5Thumb.png; sourceTree = "<group>"; };
 		DA7BB1461F34AC0100E737CC /* AppName@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppName@2x.png"; sourceTree = "<group>"; };
 		DA9598691F3493DE00C66B7E /* BanigBG@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BanigBG@3x.png"; sourceTree = "<group>"; };
@@ -700,14 +706,17 @@
 				C8DA503612898D4C00B5C3B7 /* TraceBaRight.png */,
 				DA472E821F4423810056A71C /* TraceBaRight@2x.png */,
 				C8DA503C12898D4C00B5C3B7 /* TraceARight.png */,
+				DA472E901F4446E50056A71C /* TraceARight@2x.png */,
 				C8DA503D12898D4C00B5C3B7 /* TraceALeft.png */,
 				DAB423D11F433AE3007281FF /* TraceALeft@2x.png */,
 				C8DA503E12898D4C00B5C3B7 /* TraceEIRight.png */,
+				DA472E921F44478B0056A71C /* TraceEIRight@2x.png */,
 				C8DA503F12898D4C00B5C3B7 /* TraceEILeft.png */,
 				DA472E4F1F43CED80056A71C /* TraceEILeft@2x.png */,
 				C8DA504212898D4C00B5C3B7 /* TraceOULeft.png */,
 				DA472E4E1F43CED80056A71C /* TraceOULeft@2x.png */,
 				C8DA504312898D4C00B5C3B7 /* TraceOURight.png */,
+				DA472E941F44483B0056A71C /* TraceOURight@2x.png */,
 				C8DA504412898D4C00B5C3B7 /* ArrowLeft.png */,
 				C8DA504512898D4C00B5C3B7 /* ArrowRight.png */,
 			);
@@ -900,6 +909,7 @@
 				C8DA506012898D4C00B5C3B7 /* TraceLaRight.png in Resources */,
 				C8DA506112898D4C00B5C3B7 /* TraceLaLeft.png in Resources */,
 				C8DA506312898D4C00B5C3B7 /* TraceKaRight.png in Resources */,
+				DA472E931F44478B0056A71C /* TraceEIRight@2x.png in Resources */,
 				C8DA506412898D4C00B5C3B7 /* TraceKaLeft.png in Resources */,
 				DA472E861F4423810056A71C /* TraceNgaRight@2x.png in Resources */,
 				DAB423CE1F4301C6007281FF /* MyFirstBaybayinBranding@2x.png in Resources */,
@@ -992,6 +1002,8 @@
 				C861950A129D55C1009AB35C /* TraceTa.wav in Resources */,
 				C861950B129D55C1009AB35C /* TraceYa.wav in Resources */,
 				C861950C129D55C1009AB35C /* TraceWa.wav in Resources */,
+				DA472E911F4446E50056A71C /* TraceARight@2x.png in Resources */,
+				DA472E951F44483B0056A71C /* TraceOURight@2x.png in Resources */,
 				C8619518129D56A1009AB35C /* TraceDaRa.wav in Resources */,
 				C85A4F63129E1A2A007473FC /* SitesCellBG.png in Resources */,
 				C861EA99129E89F30093EA6E /* Site2Thumb.png in Resources */,
