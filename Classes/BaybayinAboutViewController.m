@@ -63,14 +63,14 @@
         self.aboutImgView = tempImageView;
         
         UIScrollView *tempScrollView = nil;
-        tempScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(100, 0, 449, 318)];
+        tempScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(80, 0, 498, 320)];
         self.scrollView = tempScrollView;
         
-        self.scrollView.minimumZoomScale = 0.99;
-        self.scrollView.maximumZoomScale = 1.5;
+        self.scrollView.minimumZoomScale = 1;
+        self.scrollView.maximumZoomScale = 1.4;
         scrollView.delegate = self;
         [scrollView addSubview:aboutImgView];
-        scrollView.zoomScale = 0.99;
+        scrollView.zoomScale = 1.1;
         
         [tempImageView release];
         [tempScrollView release];
