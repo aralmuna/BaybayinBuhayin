@@ -242,7 +242,7 @@
         <image name="MenuFirstBaybayin.png" width="33" height="132"/>
         <image name="MenuK.png" width="57" height="48"/>
         <image name="ShakeHome.png" width="288" height="344"/>
-        <image name="Website.png" width="12" height="165"/>
+        <image name="Website.png" width="15" height="165"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
