@@ -23,7 +23,6 @@
 		C80B88D6125DAB1E005799A8 /* Baybayin101ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C80B88D4125DAB1E005799A8 /* Baybayin101ViewController.m */; };
 		C80B88D7125DAB1E005799A8 /* Baybayin101ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C80B88D5125DAB1E005799A8 /* Baybayin101ViewController.xib */; };
 		C81969B41299368000EF8E11 /* fblogout.png in Resources */ = {isa = PBXBuildFile; fileRef = C81969B31299367F00EF8E11 /* fblogout.png */; };
-		C81C018212A4A6FE00C7D3C9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C81C018112A4A6FE00C7D3C9 /* Default.png */; };
 		C832DEE512975797009D404C /* Website.png in Resources */ = {isa = PBXBuildFile; fileRef = C832DEE412975797009D404C /* Website.png */; };
 		C832DEEB1297590E009D404C /* Bamboo.png in Resources */ = {isa = PBXBuildFile; fileRef = C832DEEA1297590E009D404C /* Bamboo.png */; };
 		C832DF0112975B1C009D404C /* MenuA.png in Resources */ = {isa = PBXBuildFile; fileRef = C832DEFD12975B1C009D404C /* MenuA.png */; };
@@ -196,7 +195,6 @@
 		DA472E6E1F43D7550056A71C /* TraceHaLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA472E6C1F43D7550056A71C /* TraceHaLeft@2x.png */; };
 		DA472E6F1F43D7550056A71C /* TraceGaLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA472E6D1F43D7550056A71C /* TraceGaLeft@2x.png */; };
 		DA5C03961F42A6D5005429F7 /* Site5Thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5C03951F42A6D5005429F7 /* Site5Thumb.png */; };
-		DA7BB13F1F349E9700E737CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7BB13E1F349E9700E737CC /* Default-568h@2x.png */; };
 		DA7BB1471F34AC0100E737CC /* AppName@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7BB1461F34AC0100E737CC /* AppName@2x.png */; };
 		DA95986A1F3493DE00C66B7E /* BanigBG@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9598691F3493DE00C66B7E /* BanigBG@3x.png */; };
 		DAB423C41F42DAD4007281FF /* PlaySoundIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB423C31F42DAD4007281FF /* PlaySoundIcon@2x.png */; };
@@ -231,7 +229,6 @@
 		C80B88D4125DAB1E005799A8 /* Baybayin101ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Baybayin101ViewController.m; sourceTree = "<group>"; };
 		C80B88D5125DAB1E005799A8 /* Baybayin101ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Baybayin101ViewController.xib; path = Classes/Baybayin101ViewController.xib; sourceTree = "<group>"; };
 		C81969B31299367F00EF8E11 /* fblogout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fblogout.png; sourceTree = "<group>"; };
-		C81C018112A4A6FE00C7D3C9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C832DEE412975797009D404C /* Website.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Website.png; sourceTree = "<group>"; };
 		C832DEEA1297590E009D404C /* Bamboo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bamboo.png; sourceTree = "<group>"; };
 		C832DEFD12975B1C009D404C /* MenuA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuA.png; sourceTree = "<group>"; };
@@ -423,7 +420,6 @@
 		DA472E6C1F43D7550056A71C /* TraceHaLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TraceHaLeft@2x.png"; sourceTree = "<group>"; };
 		DA472E6D1F43D7550056A71C /* TraceGaLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TraceGaLeft@2x.png"; sourceTree = "<group>"; };
 		DA5C03951F42A6D5005429F7 /* Site5Thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Site5Thumb.png; sourceTree = "<group>"; };
-		DA7BB13E1F349E9700E737CC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DA7BB1461F34AC0100E737CC /* AppName@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppName@2x.png"; sourceTree = "<group>"; };
 		DA9598691F3493DE00C66B7E /* BanigBG@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BanigBG@3x.png"; sourceTree = "<group>"; };
 		DAB423C31F42DAD4007281FF /* PlaySoundIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlaySoundIcon@2x.png"; sourceTree = "<group>"; };
@@ -707,8 +703,6 @@
 				DAB423CD1F4301C6007281FF /* MyFirstBaybayinBranding@2x.png */,
 				DAB423CB1F42FC8C007281FF /* ShakeWall@2x.png */,
 				DA7BB1461F34AC0100E737CC /* AppName@2x.png */,
-				DA7BB13E1F349E9700E737CC /* Default-568h@2x.png */,
-				C81C018112A4A6FE00C7D3C9 /* Default.png */,
 				C879B72C12A3552D00131864 /* AboutTwoTone.png */,
 				C879B6AB12A3436900131864 /* BanigBG.png */,
 				DACD75771F34884700B36F11 /* BanigBG@2x.png */,
@@ -853,7 +847,6 @@
 				C8DA505412898D4C00B5C3B7 /* TracePaRight.png in Resources */,
 				C8DA505512898D4C00B5C3B7 /* TracePaLeft.png in Resources */,
 				DAB423CA1F42FA15007281FF /* Assets.xcassets in Resources */,
-				DA7BB13F1F349E9700E737CC /* Default-568h@2x.png in Resources */,
 				C8DA505712898D4C00B5C3B7 /* TraceNgaRight.png in Resources */,
 				C8DA505812898D4C00B5C3B7 /* TraceNgaLeft.png in Resources */,
 				C8DA505A12898D4C00B5C3B7 /* TraceNaRight.png in Resources */,
@@ -997,7 +990,6 @@
 				DA472E6B1F43D5770056A71C /* TraceDaRaLeft@2x.png in Resources */,
 				C879B72D12A3552D00131864 /* AboutTwoTone.png in Resources */,
 				DA95986A1F3493DE00C66B7E /* BanigBG@3x.png in Resources */,
-				C81C018212A4A6FE00C7D3C9 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
