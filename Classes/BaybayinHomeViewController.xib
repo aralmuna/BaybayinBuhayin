@@ -79,11 +79,11 @@
                         <action selector="baybayinIntro" destination="-1" eventType="touchUpInside" id="21"/>
                     </connections>
                 </button>
-                <imageView userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleAspectFill" fixedFrame="YES" image="MenuBaybayin101.png" translatesAutoresizingMaskIntoConstraints="NO" id="31">
+                <imageView userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleAspectFit" fixedFrame="YES" image="MenuBaybayin101.png" translatesAutoresizingMaskIntoConstraints="NO" id="31">
                     <rect key="frame" x="421" y="98" width="65" height="122"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <button hidden="YES" opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66">
+                <button hidden="YES" opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66">
                     <rect key="frame" x="421" y="98" width="65" height="122"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
@@ -98,11 +98,11 @@
                         <action selector="baybayinIntro" destination="-1" eventType="touchUpInside" id="68"/>
                     </connections>
                 </button>
-                <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleAspectFill" fixedFrame="YES" image="AboutThisApp.png" translatesAutoresizingMaskIntoConstraints="NO" id="32">
+                <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleAspectFit" fixedFrame="YES" image="AboutThisApp.png" translatesAutoresizingMaskIntoConstraints="NO" id="32">
                     <rect key="frame" x="235" y="41" width="17" height="132"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <button hidden="YES" opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="70">
+                <button hidden="YES" opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="70">
                     <rect key="frame" x="235" y="41" width="17" height="132"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
@@ -117,11 +117,11 @@
                         <action selector="seeWebsites" destination="-1" eventType="touchUpInside" id="72"/>
                     </connections>
                 </button>
-                <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleAspectFill" fixedFrame="YES" image="MenuBaybayinAralin.png" translatesAutoresizingMaskIntoConstraints="NO" id="35">
+                <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleAspectFit" fixedFrame="YES" image="MenuBaybayinAralin.png" translatesAutoresizingMaskIntoConstraints="NO" id="35">
                     <rect key="frame" x="360" y="68" width="53" height="128"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <button hidden="YES" opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74">
+                <button hidden="YES" opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74">
                     <rect key="frame" x="360" y="68" width="53" height="128"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
@@ -136,11 +136,11 @@
                         <action selector="tracing" destination="-1" eventType="touchUpInside" id="79"/>
                     </connections>
                 </button>
-                <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleAspectFill" fixedFrame="YES" image="MenuFirstBaybayin.png" translatesAutoresizingMaskIntoConstraints="NO" id="36">
+                <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleAspectFit" fixedFrame="YES" image="MenuFirstBaybayin.png" translatesAutoresizingMaskIntoConstraints="NO" id="36">
                     <rect key="frame" x="297" y="47" width="33" height="132"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <button hidden="YES" opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76">
+                <button hidden="YES" opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76">
                     <rect key="frame" x="297" y="47" width="33" height="132"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
@@ -236,10 +236,10 @@
         <image name="BanigBG.png" width="480" height="320"/>
         <image name="MenuA.png" width="50" height="59"/>
         <image name="MenuB.png" width="45" height="60"/>
-        <image name="MenuBaybayin101.png" width="65" height="122"/>
-        <image name="MenuBaybayinAralin.png" width="53" height="128"/>
+        <image name="MenuBaybayin101.png" width="63" height="125"/>
+        <image name="MenuBaybayinAralin.png" width="50" height="130"/>
         <image name="MenuD.png" width="48" height="34"/>
-        <image name="MenuFirstBaybayin.png" width="33" height="132"/>
+        <image name="MenuFirstBaybayin.png" width="32" height="132"/>
         <image name="MenuK.png" width="57" height="48"/>
         <image name="ShakeHome.png" width="288" height="344"/>
         <image name="Website.png" width="15" height="165"/>

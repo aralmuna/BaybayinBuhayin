@@ -211,13 +211,16 @@
 		DA472E911F4446E50056A71C /* TraceARight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA472E901F4446E50056A71C /* TraceARight@2x.png */; };
 		DA472E931F44478B0056A71C /* TraceEIRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA472E921F44478B0056A71C /* TraceEIRight@2x.png */; };
 		DA472E951F44483B0056A71C /* TraceOURight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA472E941F44483B0056A71C /* TraceOURight@2x.png */; };
+		DA472E971F44521D0056A71C /* AboutThisApp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA472E961F44521D0056A71C /* AboutThisApp@2x.png */; };
+		DA472E991F44553F0056A71C /* MenuBaybayinAralin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA472E981F44553F0056A71C /* MenuBaybayinAralin@2x.png */; };
+		DA472E9C1F4456800056A71C /* MenuFirstBaybayin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA472E9A1F4456800056A71C /* MenuFirstBaybayin@2x.png */; };
+		DA472E9D1F4456800056A71C /* MenuBaybayin101@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA472E9B1F4456800056A71C /* MenuBaybayin101@2x.png */; };
 		DA5C03961F42A6D5005429F7 /* Site5Thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5C03951F42A6D5005429F7 /* Site5Thumb.png */; };
 		DA7BB1471F34AC0100E737CC /* AppName@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7BB1461F34AC0100E737CC /* AppName@2x.png */; };
 		DA95986A1F3493DE00C66B7E /* BanigBG@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9598691F3493DE00C66B7E /* BanigBG@3x.png */; };
 		DAB423C41F42DAD4007281FF /* PlaySoundIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB423C31F42DAD4007281FF /* PlaySoundIcon@2x.png */; };
 		DAB423C61F42F6E2007281FF /* SeeAll@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB423C51F42F6E2007281FF /* SeeAll@2x.png */; };
 		DAB423CA1F42FA15007281FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB423C91F42FA15007281FF /* Assets.xcassets */; };
-		DAB423CC1F42FC8C007281FF /* ShakeWall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB423CB1F42FC8C007281FF /* ShakeWall@2x.png */; };
 		DAB423CE1F4301C6007281FF /* MyFirstBaybayinBranding@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB423CD1F4301C6007281FF /* MyFirstBaybayinBranding@2x.png */; };
 		DAB423D01F430E75007281FF /* Website@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB423CF1F430E75007281FF /* Website@2x.png */; };
 		DAB423D21F433AE3007281FF /* TraceALeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB423D11F433AE3007281FF /* TraceALeft@2x.png */; };
@@ -453,13 +456,16 @@
 		DA472E901F4446E50056A71C /* TraceARight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TraceARight@2x.png"; sourceTree = "<group>"; };
 		DA472E921F44478B0056A71C /* TraceEIRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TraceEIRight@2x.png"; sourceTree = "<group>"; };
 		DA472E941F44483B0056A71C /* TraceOURight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TraceOURight@2x.png"; sourceTree = "<group>"; };
+		DA472E961F44521D0056A71C /* AboutThisApp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AboutThisApp@2x.png"; sourceTree = "<group>"; };
+		DA472E981F44553F0056A71C /* MenuBaybayinAralin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuBaybayinAralin@2x.png"; sourceTree = "<group>"; };
+		DA472E9A1F4456800056A71C /* MenuFirstBaybayin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuFirstBaybayin@2x.png"; sourceTree = "<group>"; };
+		DA472E9B1F4456800056A71C /* MenuBaybayin101@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuBaybayin101@2x.png"; sourceTree = "<group>"; };
 		DA5C03951F42A6D5005429F7 /* Site5Thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Site5Thumb.png; sourceTree = "<group>"; };
 		DA7BB1461F34AC0100E737CC /* AppName@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppName@2x.png"; sourceTree = "<group>"; };
 		DA9598691F3493DE00C66B7E /* BanigBG@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BanigBG@3x.png"; sourceTree = "<group>"; };
 		DAB423C31F42DAD4007281FF /* PlaySoundIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlaySoundIcon@2x.png"; sourceTree = "<group>"; };
 		DAB423C51F42F6E2007281FF /* SeeAll@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SeeAll@2x.png"; sourceTree = "<group>"; };
 		DAB423C91F42FA15007281FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DAB423CB1F42FC8C007281FF /* ShakeWall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ShakeWall@2x.png"; sourceTree = "<group>"; };
 		DAB423CD1F4301C6007281FF /* MyFirstBaybayinBranding@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MyFirstBaybayinBranding@2x.png"; sourceTree = "<group>"; };
 		DAB423CF1F430E75007281FF /* Website@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Website@2x.png"; sourceTree = "<group>"; };
 		DAB423D11F433AE3007281FF /* TraceALeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TraceALeft@2x.png"; sourceTree = "<group>"; };
@@ -752,7 +758,6 @@
 			children = (
 				DAB423CF1F430E75007281FF /* Website@2x.png */,
 				DAB423CD1F4301C6007281FF /* MyFirstBaybayinBranding@2x.png */,
-				DAB423CB1F42FC8C007281FF /* ShakeWall@2x.png */,
 				DA7BB1461F34AC0100E737CC /* AppName@2x.png */,
 				C879B72C12A3552D00131864 /* AboutTwoTone.png */,
 				C879B6AB12A3436900131864 /* BanigBG.png */,
@@ -765,6 +770,7 @@
 				C85E1B8F129F3E6B00651A7B /* 101On.png */,
 				C85E1B90129F3E6B00651A7B /* 101Off.png */,
 				C8E5F57D129F2F070056F398 /* AboutThisApp.png */,
+				DA472E961F44521D0056A71C /* AboutThisApp@2x.png */,
 				C8CF2232129EC85300A745B5 /* AllCharsX.png */,
 				C8CF2209129EC54B00A745B5 /* AllCharsBG3.png */,
 				C861EB24129E99910093EA6E /* ShakeWall.png */,
@@ -787,8 +793,11 @@
 				C8D409331298F8FE00306C66 /* ShareButton.png */,
 				C8D409221298F85700306C66 /* MyFirstBaybayinBranding.png */,
 				C8D8D4F81298B1C6006FEEDC /* MenuBaybayin101.png */,
+				DA472E9B1F4456800056A71C /* MenuBaybayin101@2x.png */,
 				C8D8D4F91298B1C6006FEEDC /* MenuBaybayinAralin.png */,
+				DA472E981F44553F0056A71C /* MenuBaybayinAralin@2x.png */,
 				C8D8D4E81298B07A006FEEDC /* MenuFirstBaybayin.png */,
+				DA472E9A1F4456800056A71C /* MenuFirstBaybayin@2x.png */,
 				C80AC1CE12989FF300299363 /* Bamboo Top Copy.png */,
 				C8E8D7EC1297E37400F87A3E /* HomeBamboo.png */,
 				C8E8D7DF1297E27D00F87A3E /* HomeBambooOn.png */,
@@ -869,6 +878,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				DA472E9C1F4456800056A71C /* MenuFirstBaybayin@2x.png in Resources */,
 				DA472E8E1F4425740056A71C /* TraceYaRight@2x.png in Resources */,
 				C886E54F125D705D00BA50FF /* BaybayinHomeViewController.xib in Resources */,
 				C80B88D7125DAB1E005799A8 /* Baybayin101ViewController.xib in Resources */,
@@ -879,7 +889,6 @@
 				C8451C7B12655F60008BF722 /* ArrowNormalLeft.png in Resources */,
 				C8451C7C12655F60008BF722 /* ArrowNormalRight.png in Resources */,
 				C8F66CB612675B59004A1516 /* Yellow.png in Resources */,
-				DAB423CC1F42FC8C007281FF /* ShakeWall@2x.png in Resources */,
 				DA472E5C1F43D0E60056A71C /* TraceMaLeft@2x.png in Resources */,
 				C8F66CB712675B59004A1516 /* Blue.png in Resources */,
 				C8F66CB812675B59004A1516 /* Red.png in Resources */,
@@ -891,6 +900,7 @@
 				C8DA504812898D4C00B5C3B7 /* TraceYaRight.png in Resources */,
 				C8DA504912898D4C00B5C3B7 /* TraceYaLeft.png in Resources */,
 				C8DA504B12898D4C00B5C3B7 /* TraceWaRight.png in Resources */,
+				DA472E971F44521D0056A71C /* AboutThisApp@2x.png in Resources */,
 				C8DA504C12898D4C00B5C3B7 /* TraceWaLeft.png in Resources */,
 				C8DA504E12898D4C00B5C3B7 /* TraceTaRight.png in Resources */,
 				C8DA504F12898D4C00B5C3B7 /* TraceTaLeft.png in Resources */,
@@ -938,6 +948,7 @@
 				C8BF459D1296A7A3006B5660 /* TraceA.png in Resources */,
 				C8BF459E1296A7A3006B5660 /* TraceYa.png in Resources */,
 				C8BF45AD1296A88E006B5660 /* TraceOU.png in Resources */,
+				DA472E9D1F4456800056A71C /* MenuBaybayin101@2x.png in Resources */,
 				C8BF45AE1296A88E006B5660 /* TraceEI.png in Resources */,
 				DA472E8F1F4425740056A71C /* TraceWaRight@2x.png in Resources */,
 				C8BF45B91296A992006B5660 /* TraceGa.png in Resources */,
@@ -969,6 +980,7 @@
 				C8E8D7ED1297E37400F87A3E /* HomeBamboo.png in Resources */,
 				C80AC1CF12989FF300299363 /* Bamboo Top Copy.png in Resources */,
 				C8D8D4E91298B07A006FEEDC /* MenuFirstBaybayin.png in Resources */,
+				DA472E991F44553F0056A71C /* MenuBaybayinAralin@2x.png in Resources */,
 				C8D8D4FA1298B1C6006FEEDC /* MenuBaybayin101.png in Resources */,
 				C8D8D4FB1298B1C6006FEEDC /* MenuBaybayinAralin.png in Resources */,
 				C8D409231298F85700306C66 /* MyFirstBaybayinBranding.png in Resources */,
