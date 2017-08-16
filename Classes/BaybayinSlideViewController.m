@@ -147,7 +147,7 @@ const int X2 = 1629; // 1320(460) -> 1629(568)
     NSLog(@"trace %@", nextCharName);
     
     // trace image origin
-    CGPoint center = CGPointMake(295, 160);
+    CGPoint center = CGPointMake(295, 180);
     NSString *nextImageName = [NSString stringWithFormat:@"%@.png", nextCharName];
     UIImage *nextImg = [UIImage imageNamed:nextImageName];
     nextView.image = nextImg;
