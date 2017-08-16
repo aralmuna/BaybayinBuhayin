@@ -180,7 +180,7 @@ static NSString* kWallInfoPopupDisplayed = @"wall_info_popup_displayed";
     
     // change black background to transparent
     // Taken from: http://stackoverflow.com/questions/633722/how-to-make-one-color-transparent-on-a-uiimage/3175328#3175328
-    const float colorMasking[6] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+    CGFloat colorMasking[6] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
     CGImageRef maskRef = drawing.CGImage;
     CGImageRef mask = CGImageCreateWithMaskingColors(maskRef, colorMasking);
     UIImage *maskedDrawing = [UIImage imageWithCGImage:mask];
